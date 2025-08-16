@@ -1,0 +1,60 @@
+# ==============================
+# OS & Editor Files
+# ==============================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+
+# VS Code
+.vscode/
+.history/
+
+# JetBrains IDE
+.idea/
+
+# ==============================
+# Dependency Directories
+# ==============================
+node_modules/
+bower_components/
+
+# ==============================
+# Build / Output Directories
+# ==============================
+dist/
+build/
+out/
+coverage/
+.tmp/
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.local
+.env.*.local
+
+# ==============================
+# Package Managers
+# ==============================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ==============================
+# Misc
+# ==============================
+*.zip
+*.tar
+*.gz
+*.tgz
