@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fullstack Development for Undergraduates | Transflower Learning</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <style>
+  body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9fb;
+      color: #333;
+    }
+    .navbar {
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+    .navbar-brand {
+      font-style: italic;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(to right, #B22222, #FF8C00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .navbar-brand img {
+      height: 30px;
+      margin-right: 10px;
+    }
+    .nav-link:hover {
+      color: #0c0c0c;
+    }
+    .login-link:hover {
+      background-color: #0c0c0c;
+      color: #fff !important;
+    }
+    .section {
+      padding: 60px 20px;
+    }
+    h2 {
+      color: #050505;
+      font-weight: bold;
+    }
+    .phase-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+      padding: 20px;
+      margin-bottom: 25px;
+    }
+    .phase-card h4 {
+      color: #020202;
+    }
+    table {
+      margin-top: 15px;
+    }
+    table th {
+      background: #f2f2f2;
+    }
+    .footer {
+      background-color: #f2f2f2;
+      color: #333;
+      padding: 40px 20px;
+    }
+    .footer a {
+      color: #555;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .social-icons i {
+      margin: 0 10px;
+      font-size: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html">
+        <img src="Photos/logo2.png" alt="Logo" />
+        Transflower Learning
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link login-link" href="loginJWT.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><i class="fas fa-bars"></i></a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Courses.html">Courses</a></li>
+              <li><a class="dropdown-item" href="Mentorship.html">Mentorship</a></li>
+              <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+              <li><a class="dropdown-item" href="Testimonials.html">Testimonials</a></li>
+              <li><a class="dropdown-item" href="Gallery.html">Gallery</a></li>
+              <li><a class="dropdown-item" href="#">Reviews</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Program Vision -->
+  <div class="section text-center" data-aos="fade-up">
+    <div class="container">
+      <h2>🎯 4-Year AI-Ready Career Action Plan</h2>
+      <p class="lead">Goal: Graduate with a strong portfolio, network, and in-demand skills that complement AI rather than compete with it.</p>
+    </div>
+  </div>
+
+  <!-- Year 1 -->
+  <div class="container">
+    <div class="phase-card" data-aos="fade-up">
+      <h4>Year 1 – Foundations & Digital Literacy</h4>
+      <p><em>You’re building the base that will carry you through every tech disruption.</em></p>
+      <h6>Semester 1</h6>
+      <ul>
+        <li><strong>Technical Skills:</strong> Python + C/C++ or Java, Git & GitHub, Linux basics</li>
+        <li><strong>Human Skills:</strong> Communication, teamwork, time management</li>
+        <li><strong>AI Awareness:</strong> Intro to AI/ML, hands-on with ChatGPT, Bard, Perplexity</li>
+        <li><strong>Mini Project:</strong> Personal portfolio website with AI-assisted design</li>
+      </ul>
+      <h6>Semester 2</h6>
+      <ul>
+        <li><strong>Technical Skills:</strong> DSA, SQL, statistics & probability</li>
+        <li><strong>AI Awareness:</strong> Prompt engineering basics, AI productivity tools</li>
+        <li><strong>Mini Project:</strong> CRUD app (Task Manager) with AI API integration</li>
+      </ul>
+    </div>
+
+    <!-- Year 2 -->
+    <div class="phase-card" data-aos="fade-up">
+      <h4>Year 2 – Building Depth + Starting AI Integration</h4>
+      <h6>Semester 3</h6>
+      <ul>
+        <li><strong>Technical Skills:</strong> OOP in depth, React/Angular, REST APIs</li>
+        <li><strong>Human Skills:</strong> Collaboration, technical writing</li>
+        <li><strong>AI Integration:</strong> AI-assisted frontend design with Figma AI, Midjourney</li>
+        <li><strong>Project:</strong> Blog platform with AI-generated suggestions</li>
+      </ul>
+      <h6>Semester 4</h6>
+      <ul>
+        <li><strong>Technical Skills:</strong> Backend dev (.NET, Spring Boot, Django), API auth, Cloud basics</li>
+        <li><strong>AI Integration:</strong> Build AI chatbots with LangChain or Rasa</li>
+        <li><strong>Project:</strong> AI-powered Q&A chatbot for college website/library</li>
+      </ul>
+    </div>
+
+    <!-- Year 3 -->
+    <div class="phase-card" data-aos="fade-up">
+      <h4>Year 3 – Specialization + Real-World Exposure</h4>
+      <h6>Semester 5</h6>
+      <ul>
+        <li><strong>Choose Specialization:</strong> Data Science & AI, Full-Stack, Cybersecurity, IoT</li>
+        <li><strong>Skills:</strong> Pandas/TensorFlow for AI, GraphQL for full-stack, pen-testing for security, IoT hardware</li>
+        <li><strong>Project:</strong> Industry-inspired specialization project with AI-assisted testing/docs</li>
+      </ul>
+      <h6>Semester 6</h6>
+      <ul>
+        <li><strong>Skills:</strong> DevOps basics (CI/CD, Docker), scalable architectures, Tableau/Power BI</li>
+        <li><strong>Real-World Exposure:</strong> Internship or open-source contribution</li>
+        <li><strong>Project:</strong> Deploy app on cloud with AI features</li>
+      </ul>
+    </div>
+
+    <!-- Year 4 -->
+    <div class="phase-card" data-aos="fade-up">
+      <h4>Year 4 – Industry Readiness & Differentiation</h4>
+      <h6>Semester 7</h6>
+      <ul>
+        <li><strong>Skills:</strong> Advanced AI apps (LLM fine-tuning), system design, agile project mgmt</li>
+        <li><strong>Career Prep:</strong> Resume/LinkedIn optimization, mock interviews</li>
+        <li><strong>Capstone Start:</strong> Real-world AI + human-value project</li>
+      </ul>
+      <h6>Semester 8</h6>
+      <ul>
+        <li><strong>Skills:</strong> AI ethics, presentation & pitching</li>
+        <li><strong>Capstone Completion:</strong> AI-driven product, cloud deployed, demo-ready</li>
+        <li><strong>Launch:</strong> Portfolio + GitHub + job applications</li>
+      </ul>
+    </div>
+
+    <!-- Continuous Actions -->
+    <div class="phase-card" data-aos="fade-up">
+      <h4>💡 Key Continuous Actions Throughout All Years</h4>
+      <ul>
+        <li>Networking: Hackathons, meetups, LinkedIn</li>
+        <li>Portfolio: Publish every project</li>
+        <li>AI Usage: Daily productivity & learning partner</li>
+        <li>Skill Refresh: Learn 1 new tool each semester</li>
+        <li>Side Hustles: Freelancing or client projects</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="text-center mt-5" data-aos="zoom-in">
+    <h3>Ready to design your AI-ready career?</h3>
+    <a href="FAQ.html" class="btn btn-primary mt-3">FAQ</a>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <h5>Transflower Learning</h5>
+          <p>Empowering future developers through mentorship and practical skills.</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h6>Quick Links</h6>
+          <a href="About.html">About</a><br />
+          <a href="Courses.html">Courses</a><br />
+          <a href="#">Privacy Policy</a><br />
+          <a href="Contact.html">Contact</a>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h6>Contact Us</h6>
+          <p>Email: support@transflower.in</p>
+          <p>Phone: +91 98765 43210</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="https://github.com/ravitambade" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <p><strong>Office Address:</strong><br>Transflower Learning Pvt. Ltd.<br>123 Business Park, Pune, India</p>
+          <p><strong>Classroom Address:</strong><br>Transflower Training Center<br>456 Knowledge Hub, Mumbai, India</p>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center mb-0">© 2025 Transflower Learning. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>

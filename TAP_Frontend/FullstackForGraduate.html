@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fullstack Development for Graduates | Transflower Learning</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9fb;
+      color: #333;
+    }
+    .navbar {
+      background-color: #fff;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+    .navbar-brand {
+      font-style: italic;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      background: linear-gradient(to right, #B22222, #FF8C00);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .navbar-brand img {
+      height: 30px;
+      margin-right: 10px;
+    }
+    .nav-link:hover {
+      color: #0c0c0c;
+    }
+    .login-link:hover {
+      background-color: #0c0c0c;
+      color: #fff !important;
+    }
+    .section {
+      padding: 60px 20px;
+    }
+    h2 {
+      color: #050505;
+      font-weight: bold;
+    }
+    .phase-card {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+      padding: 20px;
+      margin-bottom: 25px;
+    }
+    .phase-card h4 {
+      color: #020202;
+    }
+    table {
+      margin-top: 15px;
+    }
+    table th {
+      background: #f2f2f2;
+    }
+    .footer {
+      background-color: #f2f2f2;
+      color: #333;
+      padding: 40px 20px;
+    }
+    .footer a {
+      color: #555;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    .social-icons i {
+      margin: 0 10px;
+      font-size: 20px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="Home.html">
+        <img src="Photos/logo2.png" alt="Logo" />
+        Transflower Learning
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link login-link" href="loginJWT.html">Login</a></li>
+          <li class="nav-item"><a class="nav-link" href="Home.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="About.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><i class="fas fa-bars"></i></a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="Courses.html">Courses</a></li>
+              <li><a class="dropdown-item" href="Mentorship.html">Mentorship</a></li>
+              <li><a class="dropdown-item" href="Blog.html">Blog</a></li>
+              <li><a class="dropdown-item" href="Testimonials.html">Testimonials</a></li>
+              <li><a class="dropdown-item" href="Gallery.html">Gallery</a></li>
+              <li><a class="dropdown-item" href="#">Reviews</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Program Vision -->
+  <div class="section text-center" data-aos="fade-up">
+    <div class="container">
+      <h2>🌱 Transflower Acceleration Program — 4 Months to IT Job-Readiness</h2>
+      <p class="lead">“From Graduate to Industry-Ready IT Professional” — mastering core tech, applying it in real projects, and developing the professional mindset for sustainable career growth.</p>
+    </div>
+  </div>
+
+  <!-- Phases -->
+  <div class="container">
+
+    <!-- Phase 1 -->
+    <div class="phase-card" data-aos="fade-up">
+      <h4>Phase 1 — Foundation & Skill Baseline (Weeks 1–4)</h4>
+      <p><strong>Goal:</strong> Solidify core programming, problem-solving, and tool skills.</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr><th>Focus Area</th><th>Topics</th><th>Activities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Core Programming</td><td>C#, Java, or Python. OOP, DS, files, exceptions</td><td>Daily coding on HackerRank/LeetCode</td></tr>
+          <tr><td>Databases</td><td>SQL basics, CRUD, joins, indexes</td><td>Create & query sample DB</td></tr>
+          <tr><td>Version Control</td><td>Git & GitHub basics</td><td>Setup profile, first commits</td></tr>
+          <tr><td>Tool Setup</td><td>IDEs, CLI, package managers</td><td>Install & configure</td></tr>
+        </tbody>
+      </table>
+      <p>🔹 <strong>Mini Project:</strong> CLI Student Record Manager<br>🔹 <strong>Outcome:</strong> Can write clean code & work with Git</p>
+    </div>
+
+    <!-- Phase 2 -->
+    <div class="phase-card" data-aos="fade-up">
+      <h4>Phase 2 — Backend & API Skills (Weeks 5–8)</h4>
+      <p><strong>Goal:</strong> Build scalable backend services with real-world APIs.</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr><th>Focus Area</th><th>Topics</th><th>Activities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Web Backend</td><td>ASP.NET / Spring Boot / Flask/Django</td><td>Build REST CRUD endpoints</td></tr>
+          <tr><td>APIs</td><td>REST principles, Postman testing</td><td>Create & consume APIs</td></tr>
+          <tr><td>Databases</td><td>ORM basics, migrations</td><td>Connect backend to DB</td></tr>
+          <tr><td>Architecture</td><td>Layered design, DI</td><td>Refactor with service-repo pattern</td></tr>
+        </tbody>
+      </table>
+      <p>🔹 <strong>Mini Project:</strong> Product Catalog API<br>🔹 <strong>Outcome:</strong> Design, develop & document APIs</p>
+    </div>
+
+    <!-- Phase 3 -->
+    <div class="phase-card" data-aos="fade-up">
+      <h4>Phase 3 — Full-Stack Development (Weeks 9–12)</h4>
+      <p><strong>Goal:</strong> Deliver interactive web apps combining backend & frontend.</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr><th>Focus Area</th><th>Topics</th><th>Activities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Frontend</td><td>HTML, CSS, JS, Bootstrap, Angular/React basics</td><td>Build responsive UI</td></tr>
+          <tr><td>Integration</td><td>Consume APIs, JSON parsing</td><td>Connect frontend with backend</td></tr>
+          <tr><td>State Mgmt</td><td>Sessions, JWT auth</td><td>Implement login system</td></tr>
+          <tr><td>Collaboration</td><td>Agile basics, boards, stand-ups</td><td>Simulate sprints</td></tr>
+        </tbody>
+      </table>
+      <p>🔹 <strong>Major Project:</strong> E-Commerce Mini App (Cloud Deployed)<br>🔹 <strong>Outcome:</strong> Deliver complete app in team setting</p>
+    </div>
+
+    <!-- Phase 4 -->
+    <div class="phase-card" data-aos="fade-up">
+      <h4>Phase 4 — Deployment, DevOps & Interview Prep (Weeks 13–16)</h4>
+      <p><strong>Goal:</strong> Make graduates deployable and interview-ready.</p>
+      <table class="table table-bordered">
+        <thead>
+          <tr><th>Focus Area</th><th>Topics</th><th>Activities</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Cloud Basics</td><td>Azure/AWS deployment, pipelines</td><td>Deploy project to cloud</td></tr>
+          <tr><td>CI/CD</td><td>GitHub Actions/Jenkins</td><td>Automate deployment</td></tr>
+          <tr><td>Testing</td><td>Unit & API testing</td><td>Write test cases</td></tr>
+          <tr><td>Career Skills</td><td>Resume, LinkedIn, mock interviews</td><td>2 rounds of mock interviews</td></tr>
+        </tbody>
+      </table>
+      <p>🔹 <strong>Capstone Project:</strong> Full-Stack Cloud-Hosted App<br>🔹 <strong>Outcome:</strong> Portfolio projects + interview skills</p>
+    </div>
+
+    <!-- Extras -->
+    <div class="phase-card" data-aos="fade-up">
+      <h4>Program Extras</h4>
+      <ul>
+        <li>Weekly Industry Mentor Talks</li>
+        <li>Peer Code Reviews</li>
+        <li>Daily Stand-up Habits</li>
+        <li>Portfolio Development (GitHub, LinkedIn, project demos)</li>
+      </ul>
+    </div>
+
+    <!-- Results -->
+    <div class="phase-card" data-aos="fade-up">
+      <h4>Expected Results after 4 Months</h4>
+      <ul>
+        <li>✅ 2–3 solid portfolio projects</li>
+        <li>✅ Hands-on Git, backend, frontend, database, and deployment skills</li>
+        <li>✅ Ability to solve real-world coding problems</li>
+        <li>✅ Resume, LinkedIn, and interview-ready profile</li>
+        <li>✅ Confidence to work in small teams & agile settings</li>
+      </ul>
+    </div>
+
+  </div>
+
+   <!-- CTA -->
+      <div class="text-center mt-5" data-aos="zoom-in">
+        <h3>Ready to begin your journey?</h3>
+        <a href="FAQ.html" class="btn btn-primary mt-3">FAQ</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 mb-3">
+          <h5>Transflower Learning</h5>
+          <p>Empowering future developers through mentorship and practical skills.</p>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h6>Quick Links</h6>
+          <a href="#">About</a><br />
+          <a href="#">Courses</a><br />
+          <a href="#">Privacy Policy</a><br />
+          <a href="#">Contact</a>
+        </div>
+        <div class="col-md-3 mb-3">
+          <h6>Contact Us</h6>
+          <p>Email: support@transflower.in</p>
+          <p>Phone: +91 98765 43210</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="https://github.com/ravitambade" target="_blank"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <p><strong>Office Address:</strong><br>Transflower Learning Pvt. Ltd.<br>123 Business Park, Pune, India</p>
+          <p><strong>Classroom Address:</strong><br>Transflower Training Center<br>456 Knowledge Hub, Mumbai, India</p>
+        </div>
+      </div>
+      <hr>
+      <p class="text-center mb-0">© 2025 Transflower Learning. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+</body>
+</html>
