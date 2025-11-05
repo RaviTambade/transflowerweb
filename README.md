@@ -1,8 +1,5 @@
-# 📘 Bootstrap Training Modules
+# 📘 TAP's Bootstrap Training Modules
 
-Sure! Here is a **simple and clear introduction** for your Bootstrap training module:
-
----
 
 ## 🌟 Introduction to Bootstrap Training Module
 
